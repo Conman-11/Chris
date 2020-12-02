@@ -6,7 +6,7 @@ import webbrowser
 import smtplib
 import requests
 from weather import Weather
-def talkToMe(audio):
+def engine = pyttsx3.init()
     "speaks audio passed as argument"
     print(audio)
     for line in audio.splitlines():
